@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="functions.js" type="text/javascript"></script>
+    <title>Form</title>
+</head>
+<body>
+
+    <!--sample 1 prototype-->
+
+    
+    <div class="flex-container">
+
+       <form name="bulletForm" id="Form">
+
+        <div class="textboxes"> 
+           <div  class="paragraph1">
+            <p>Text Box 1</p> 
+
+            <textarea class="paragraph" type="text" name="paragraph1" value="" placeholder="Enter Text Here"></textarea>
+        </div>
+
+             
+        <div class="paragraph2">
+            <p>Text Box 2</p> 
+
+            <textarea class="paragraph" type="text" name="paragraph2" value="" placeholder="Enter Text Here"></textarea>
+        </div> 
+        </div>
+
+        
+           
+        
+        <br>
+
+        <br>
+       
+       <input type="button" name="submitType" value="Submit" onClick="myFunc(this.parentElement)" />
+        
+    </form> 
+    </div>
+
+    <div class="text" >
+        <h4 id="log"></h4>
+
+    </div> 
+
+  
+          
+    
+
+</body>
+</html>
